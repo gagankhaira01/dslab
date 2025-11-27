@@ -25,7 +25,7 @@ public:
         top = -1;
     }
 
-    void push(char value)
+    void push(int value)
     {
         if (isFull())
         {
