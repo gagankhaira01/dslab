@@ -100,7 +100,7 @@ int main()
     }
     std::string strreversed;
     for(int i=0;i<str.length();i++){
-    strreversed.push_back(s.pop());
+        strreversed.push_back(s.pop());
     }
     std::cout<<"Reversed string:"<<strreversed<<std::endl;
     return 0;
